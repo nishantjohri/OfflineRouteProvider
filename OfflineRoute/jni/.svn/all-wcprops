@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni
+END
+libft2.a
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/libft2.a
+END
+libgif.a
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/libgif.a
+END
+skia_built.a
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/skia_built.a
+END
+libcutils.so
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/libcutils.so
+END
+libpng.a
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/libpng.a
+END
+Application.mk
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/Application.mk
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/Android.mk
+END
+libskia_2.2.so
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/libskia_2.2.so
+END

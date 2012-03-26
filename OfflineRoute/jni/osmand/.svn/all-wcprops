@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand
+END
+common.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/common.cpp
+END
+rendering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/rendering.cpp
+END
+mapObjects.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/mapObjects.h
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/common.h
+END
+renderRules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/renderRules.cpp
+END
+textdraw.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/textdraw.cpp
+END
+renderRules.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/renderRules.h
+END
+binaryRead.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/binaryRead.cpp
+END
+multipolygons.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/multipolygons.h
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/Android.mk
+END
+mapObjects.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/osmand/mapObjects.cpp
+END

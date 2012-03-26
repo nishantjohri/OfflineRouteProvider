@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/showMapItem"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/show_map_item">
+    </item>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about_menu">
+    </item>
+
+    <item
+        android:id="@+id/takePicture"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="@string/picture">
+    </item>
+
+    <item
+        android:id="@+id/tripCommentItem"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="@string/trip_comment">
+    </item>
+
+    <item
+        android:id="@+id/impInfo"
+        android:title="@string/imp_info">
+    </item>
+
+    <item
+        android:id="@+id/debugMode"
+        android:title="@string/debug_mode">
+    </item>
+
+    <item
+        android:id="@+id/login"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/login">
+    </item>
+
+</menu>

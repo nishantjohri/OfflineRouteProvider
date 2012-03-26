@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/singbuddy/!svn/ver/1641/Trunk/nFlick_Android/res/menu
+END
+plan_itinerary_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/singbuddy/!svn/ver/1641/Trunk/nFlick_Android/res/menu/plan_itinerary_menu.xml
+END
+my_iterenary_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/singbuddy/!svn/ver/1647/Trunk/nFlick_Android/res/menu/my_iterenary_menu.xml
+END
+view_map_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/res/menu/view_map_menu.xml
+END
+offline_poi_details_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/singbuddy/!svn/ver/1647/Trunk/nFlick_Android/res/menu/offline_poi_details_menu.xml
+END
+offline_plan_itinerary_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/singbuddy/!svn/ver/1647/Trunk/nFlick_Android/res/menu/offline_plan_itinerary_menu.xml
+END
+offline_my_iterenary_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/singbuddy/!svn/ver/1634/Trunk/nFlick_Android/res/menu/offline_my_iterenary_menu.xml
+END
+poi_details_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/singbuddy/!svn/ver/1641/Trunk/nFlick_Android/res/menu/poi_details_menu.xml
+END
+poi_search_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/singbuddy/!svn/ver/1647/Trunk/nFlick_Android/res/menu/poi_search_menu.xml
+END
+about_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/res/menu/about_menu.xml
+END
+offline_poi_search_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/singbuddy/!svn/ver/1647/Trunk/nFlick_Android/res/menu/offline_poi_search_menu.xml
+END

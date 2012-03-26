@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf
+END
+dynamic_message_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/dynamic_message_unittest.cc
+END
+message_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/message_unittest.cc
+END
+dynamic_message.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/dynamic_message.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/message.h
+END
+package_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/package_info.h
+END
+text_format_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/text_format_unittest.cc
+END
+text_format.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/text_format.h
+END
+descriptor_database_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor_database_unittest.cc
+END
+descriptor_database.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor_database.h
+END
+test_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/test_util.h
+END
+descriptor.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor.pb.h
+END
+generated_message_reflection_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/generated_message_reflection_unittest.cc
+END
+generated_message_reflection.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/generated_message_reflection.h
+END
+wire_format_lite.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/wire_format_lite.cc
+END
+reflection_ops_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/reflection_ops_unittest.cc
+END
+reflection_ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/reflection_ops.h
+END
+test_util_lite.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/test_util_lite.h
+END
+extension_set_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/extension_set_unittest.cc
+END
+generated_message_reflection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/generated_message_reflection.cc
+END
+extension_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/extension_set.h
+END
+descriptor.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor.pb.cc
+END
+wire_format_lite_inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/wire_format_lite_inl.h
+END
+test_util.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/test_util.cc
+END
+message_lite.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/message_lite.h
+END
+unknown_field_set_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/unknown_field_set_unittest.cc
+END
+unknown_field_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/unknown_field_set.h
+END
+descriptor_database.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor_database.cc
+END
+extension_set_heavy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/extension_set_heavy.cc
+END
+generated_message_util.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/generated_message_util.cc
+END
+generated_message_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/generated_message_util.h
+END
+text_format.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/text_format.cc
+END
+unknown_field_set.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/unknown_field_set.cc
+END
+dynamic_message.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/dynamic_message.cc
+END
+lite_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/lite_unittest.cc
+END
+message.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/message.cc
+END
+descriptor_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor_unittest.cc
+END
+message_lite.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/message_lite.cc
+END
+descriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor.h
+END
+descriptor.proto
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor.proto
+END
+wire_format_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/wire_format_unittest.cc
+END
+wire_format.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/wire_format.h
+END
+extension_set.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/extension_set.cc
+END
+repeated_field_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/repeated_field_unittest.cc
+END
+repeated_field.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/repeated_field.h
+END
+service.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/service.h
+END
+reflection_ops.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/reflection_ops.cc
+END
+test_util_lite.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/test_util_lite.cc
+END
+wire_format_lite.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/wire_format_lite.h
+END
+repeated_field.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/repeated_field.cc
+END
+service.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/service.cc
+END
+wire_format.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/wire_format.cc
+END
+descriptor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/descriptor.cc
+END

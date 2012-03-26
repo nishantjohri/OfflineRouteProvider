@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs
+END
+hash.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/hash.cc
+END
+structurally_valid_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/structurally_valid_unittest.cc
+END
+common.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/common.cc
+END
+common_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/common_unittest.cc
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/common.h
+END
+structurally_valid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/structurally_valid.cc
+END
+hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/hash.h
+END
+stl_util-inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/stl_util-inl.h
+END
+strutil_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/strutil_unittest.cc
+END
+map-util.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/map-util.h
+END
+once.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/once.cc
+END
+strutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/strutil.h
+END
+substitute.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/substitute.cc
+END
+substitute.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/substitute.h
+END
+once_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/once_unittest.cc
+END
+once.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/once.h
+END
+strutil.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1752/Trunk/nFlick_Android/jni/protobuf/google/protobuf/stubs/strutil.cc
+END

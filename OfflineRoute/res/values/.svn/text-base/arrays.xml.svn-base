@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="ageGroupArray">
+        <item>0-9 years</item>
+        <item>10-14 years</item>
+        <item>15-19 years</item>
+        <item>20-24 years</item>
+        <item>25-34 years</item>
+        <item>35-49 years</item>
+        <item>50-64 years</item>
+        <item>65 years and over</item>
+    </string-array>
+    <string-array name="paceArray">
+        <item>Relax</item>
+        <item>See All</item>
+        <item>Only Evenings</item>
+    </string-array>
+    <string-array name="timesOfTheDay">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+    </string-array>
+    <string-array name="sortOptions">
+        <item>Alphabetically</item>
+        <item>By Ratings</item>
+        <item>By Distance</item>
+    </string-array>
+    <string-array name="shareableOptions">
+        <item>Place you visited</item>
+        <item>Your Itinerary</item>
+        <item>Your trip photo</item>
+    </string-array>
+    <string-array name="pictureOptions">
+        <item>Share</item>
+        <item>Delete</item>
+    </string-array>
+
+</resources>

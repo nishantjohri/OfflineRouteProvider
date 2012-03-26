@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/singbuddy/!svn/ver/1829/Trunk/nFlick_Android/src/net/osmand/plus/activities
+END
+TransportRouteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/TransportRouteHelper.java
+END
+CustomTitleBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/CustomTitleBar.java
+END
+MapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/singbuddy/!svn/ver/2139/Trunk/nFlick_Android/src/net/osmand/plus/activities/MapActivity.java
+END
+DayNightHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/DayNightHelper.java
+END
+ShowRouteInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/singbuddy/!svn/ver/2082/Trunk/nFlick_Android/src/net/osmand/plus/activities/ShowRouteInfoActivity.java
+END
+DownloadTilesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/DownloadTilesDialog.java
+END
+LiveMonitoringHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/LiveMonitoringHelper.java
+END
+EditingPOIActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/EditingPOIActivity.java
+END
+SavingTrackHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/SavingTrackHelper.java
+END
+OpeningHoursView.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/OpeningHoursView.java
+END
+LocalIndexHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/LocalIndexHelper.java
+END
+LocalOpenstreetmapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/LocalOpenstreetmapActivity.java
+END
+SettingsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/SettingsActivity.java
+END
+OsmandExpandableListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/OsmandExpandableListActivity.java
+END
+TestVoiceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/TestVoiceActivity.java
+END
+NavigatePointActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/NavigatePointActivity.java
+END
+TipsAndTricksActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/TipsAndTricksActivity.java
+END
+MapActivityLayers.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/MapActivityLayers.java
+END
+EditPOIFilterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/EditPOIFilterActivity.java
+END
+MainMenuActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/MainMenuActivity.java
+END
+LocalIndexesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/LocalIndexesActivity.java
+END
+OsmandApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/OsmandApplication.java
+END
+OsmandListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/OsmandListActivity.java
+END
+DialogProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/DialogProvider.java
+END
+DownloadIndexActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/DownloadIndexActivity.java
+END
+FavouritesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/FavouritesActivity.java
+END
+ContributionVersionActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/ContributionVersionActivity.java
+END
+FavouritesListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/FavouritesListActivity.java
+END
+ApplicationMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/ApplicationMode.java
+END
+MapSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/2120/Trunk/nFlick_Android/src/net/osmand/plus/activities/MapSearchActivity.java
+END
+DownloadFileHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/DownloadFileHelper.java
+END
+MapActivityActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/2138/Trunk/nFlick_Android/src/net/osmand/plus/activities/MapActivityActions.java
+END

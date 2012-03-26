@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/topHalf"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/logo" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/logo" />
+		<TextView android:id="@+id/title1" android:text="@string/title1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/theme_font_over_primary_1"
+			android:textStyle="bold" style="@android:style/TextAppearance.Large"
+			android:layout_gravity="center_vertical" />
+		<TextView android:id="@+id/title2" android:text="@string/title2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/theme_font_over_primary_2"
+			android:textStyle="bold" style="@android:style/TextAppearance.Large"
+			android:layout_gravity="center_vertical" />
+	</LinearLayout>
+	<TextView android:id="@+id/slogan" android:text="@string/slogan"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:textColor="@color/theme_font_over_primary_1"
+		android:textStyle="bold" style="@android:style/TextAppearance.Small" android:layout_marginLeft="20dp"/>
+</LinearLayout>

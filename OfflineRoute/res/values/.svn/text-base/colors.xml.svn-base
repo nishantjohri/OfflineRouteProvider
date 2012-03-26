@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#000000</color>
+	<color name="white">#FFFFFF</color>
+
+	<!-- Yellow Fellow -->
+	<color name="yellow_0">#FFFF7F</color>
+	<color name="yellow_1">#FFFF2A</color>
+	<color name="yellow_2">#FFFF00</color>
+
+	<!-- Red Red Wine -->
+	<color name="red_0">#FF0000</color><!-- fonts -->
+	<color name="red_1">#AA0C0B</color>
+
+	<!-- Bleed Blue -->
+	<color name="blue_0">#137B98</color><!-- fonts -->
+	<color name="blue_1">#17ADC8</color>
+	<color name="button_grey_0">#545454</color>
+	<color name="button_grey_1">#343434</color>
+	<color name="button_grey_2">#5A5959</color>
+	<color name="button_grey_3">#828282</color>
+
+	<!--
+		border stroke color for gradient box
+	-->
+	<color name="red_2">#AC090A</color><!-- gradient start -->
+	<color name="red_3">#841118</color><!-- gradient end -->
+
+	<!-- Greys? What Greys! -->
+	<color name="grey_0">#A5A5A5</color><!-- font over grey -->
+	<color name="grey_1">#8E8D8D</color><!-- font in input field -->
+	<color name="grey_2">#373737</color>
+	<!--
+		border stroke color for gradient box
+	-->
+	<color name="grey_3">#2B2B2B</color><!-- gradient start -->
+	<color name="grey_4">#1F1F1F</color><!-- secondary color -->
+	<color name="grey_5">#202020</color><!-- gradient end -->
+	<color name="grey_6">#3B3B3B</color><!-- input -->
+
+
+	<!-- Theme Colors -->
+	<color name="theme_primary">@color/black</color>
+	<color name="theme_contrast">@color/red_0</color>
+	<color name="theme_contrast_border">@color/red_1</color>
+	<color name="theme_contrast_gradient_start">@color/red_2</color>
+	<color name="theme_contrast_gradient_end">@color/red_3</color>
+	<color name="theme_secondary">@color/grey_4</color>
+	<color name="theme_secondary_border">@color/grey_2</color>
+	<color name="theme_secondary_gradient_start">@color/grey_3</color>
+	<color name="theme_secondary_gradient_end">@color/grey_5</color>
+	<color name="theme_font_over_primary_1">@color/white</color>
+	<color name="theme_font_over_primary_2">@color/red_0</color>
+	<color name="theme_font_over_seconday">@color/grey_0</color>
+	<color name="theme_font_over_contrast">@color/white</color>
+	<color name="theme_font_over_input">@color/grey_1</color>
+	<color name="theme_font_on_error">@color/red_0</color>
+	<color name="theme_tertiary">@color/yellow_1</color>
+	<color name="theme_tertiary_gradient_start">@color/yellow_0</color>
+	<color name="theme_tertiary_gradient_end">@color/yellow_1</color>
+	<color name="theme_input_field">@color/grey_6</color>
+	<color name="theme_input_field_border">@color/grey_1</color>
+	<color name="theme_detail_font_color">#6E7C85</color>
+	<color name="theme_detail_gradient_start">@color/blue_0</color>
+	<color name="theme_detail_gradient_end">@color/blue_1</color>
+	
+	<color name="my_iterenary_theme1_contrast_gradient_start">@color/button_grey_0</color>
+	<color name="my_iterenary_theme1_contrast_gradient_end">@color/button_grey_1</color>
+	<color name="my_iterenary_theme1_contrast_border">@color/button_grey_2</color>
+	<color name="my_iterenary_theme1_contrast_border_2">@color/button_grey_3</color>
+
+
+
+
+
+
+</resources>

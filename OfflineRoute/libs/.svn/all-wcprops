@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/singbuddy/!svn/ver/1772/Trunk/nFlick_Android/libs
+END
+ormlite-core-4.35.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/singbuddy/!svn/ver/1717/Trunk/nFlick_Android/libs/ormlite-core-4.35.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/libs/activation.jar
+END
+zip4j_1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/singbuddy/!svn/ver/1566/Trunk/nFlick_Android/libs/zip4j_1.2.8.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/libs/mail.jar
+END
+jackson-core-asl-1.7.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/libs/jackson-core-asl-1.7.4.jar
+END
+jackson-mapper-asl-1.7.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/libs/jackson-mapper-asl-1.7.4.jar
+END
+additionnal.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/libs/additionnal.jar
+END
+commons-compress-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/libs/commons-compress-1.0.jar
+END
+httpclient-4.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/singbuddy/!svn/ver/1481/Trunk/nFlick_Android/libs/httpclient-4.0.1.jar
+END
+ormlite-android-4.35.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/singbuddy/!svn/ver/1717/Trunk/nFlick_Android/libs/ormlite-android-4.35.jar
+END

@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/singbuddy/!svn/ver/1829/Trunk/nFlick_Android/src/net/osmand/plus/views
+END
+TurnPathHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/TurnPathHelper.java
+END
+PointNavigationLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/PointNavigationLayer.java
+END
+ShadowText.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/ShadowText.java
+END
+MapPoiListCursorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/singbuddy/!svn/ver/2131/Trunk/nFlick_Android/src/net/osmand/plus/views/MapPoiListCursorAdapter.java
+END
+PointLocationLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/PointLocationLayer.java
+END
+MultiTouchSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/MultiTouchSupport.java
+END
+OsmBugsLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/OsmBugsLayer.java
+END
+TransportStopsLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/TransportStopsLayer.java
+END
+RouteLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/RouteLayer.java
+END
+MapInfoLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/2131/Trunk/nFlick_Android/src/net/osmand/plus/views/MapInfoLayer.java
+END
+MapTileLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/MapTileLayer.java
+END
+BaseMapLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/2082/Trunk/nFlick_Android/src/net/osmand/plus/views/BaseMapLayer.java
+END
+MapTileAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/MapTileAdapter.java
+END
+ContextMenuLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/ContextMenuLayer.java
+END
+OsmandMapLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/OsmandMapLayer.java
+END
+YandexTrafficAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/YandexTrafficAdapter.java
+END
+GPXLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/GPXLayer.java
+END
+TextInfoControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/TextInfoControl.java
+END
+OsmandMapTileView.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/OsmandMapTileView.java
+END
+MapControlsLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/MapControlsLayer.java
+END
+NextTurnInfoControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/NextTurnInfoControl.java
+END
+POIMapLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/singbuddy/!svn/ver/2120/Trunk/nFlick_Android/src/net/osmand/plus/views/POIMapLayer.java
+END
+FavoritesLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/FavoritesLayer.java
+END
+RouteInfoLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/RouteInfoLayer.java
+END
+TransportInfoLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/TransportInfoLayer.java
+END
+MiniMapControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/views/MiniMapControl.java
+END
+AnimateDraggingMapThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/AnimateDraggingMapThread.java
+END
+SeekBarPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/SeekBarPreference.java
+END
+MapInfoControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/MapInfoControl.java
+END
+MapStackControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/views/MapStackControl.java
+END

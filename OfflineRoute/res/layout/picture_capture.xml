@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_margin="0dp">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_margin="0dp">
+
+
+		<LinearLayout android:layout_height="wrap_content"
+			android:orientation="horizontal" android:weightSum="1"
+			android:gravity="center_vertical" android:layout_width="match_parent"
+			android:layout_marginLeft="10dp">
+			<include android:layout_height="wrap_content"
+				android:layout_weight=".7" android:layout_marginBottom="10dp"
+				layout="@layout/banner" android:layout_width="0dp"></include>
+
+			<ImageButton android:id="@+id/imagebutton" android:src="@drawable/camera_capture"
+				android:layout_width="0dp" android:layout_weight=".3"
+				android:layout_height="wrap_content" android:onClick="camperaOpened"
+				android:layout_marginTop="10dp" />
+
+
+		</LinearLayout>
+
+
+
+
+		<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/gridview" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:columnWidth="90dp"
+			android:numColumns="auto_fit" android:verticalSpacing="10dp"
+			android:horizontalSpacing="10dp" android:stretchMode="columnWidth"
+			android:gravity="center" />
+	</LinearLayout>
+
+</RelativeLayout>

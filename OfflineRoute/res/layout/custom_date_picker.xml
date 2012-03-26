@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/container_1_body">
+	<LinearLayout android:id="@+id/planTripHeader"
+		android:background="@drawable/container_1_header"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:padding="10dp">
+		<TextView android:id="@+id/date_text" android:text=""
+			android:textColor="@color/theme_font_over_contrast"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+	</LinearLayout>
+	<DatePicker android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp" android:id="@+id/date_picker"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:background="@color/white" />
+	<TimePicker android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp" android:id="@+id/time_picker"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:background="@color/white" />
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:weightSum="2">
+		<Button android:id="@+id/buttonset" android:text="Set"
+			android:layout_width="0dp" android:layout_height="wrap_content"
+			style="@style/button" android:layout_gravity="center_horizontal"
+			android:layout_weight="1" android:layout_margin="2dp"
+			android:padding="5dp" />
+		<Button android:id="@+id/buttoncancel" android:text="Cancel"
+			android:layout_width="0dp" android:layout_height="wrap_content"
+			style="@style/button" android:layout_gravity="center_horizontal"
+			android:layout_weight="1" android:layout_margin="2dp"
+			android:padding="5dp" />
+	</LinearLayout>
+</LinearLayout>

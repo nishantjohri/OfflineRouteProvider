@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<ScrollView android:layout_alignParentTop="true"
+		android:id="@+id/bodyScrollView" android:layout_height="match_parent"
+		android:layout_width="match_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<include layout="@layout/banner" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+			<LinearLayout android:id="@+id/registrationheader"
+				android:background="@drawable/container_1_header"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:padding="10dp">
+				<TextView android:id="@+id/registrationTitle" android:text="@string/title_update_profile"
+					android:textColor="@color/theme_font_over_contrast"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+			</LinearLayout>
+
+			<LinearLayout android:id="@+id/registrationBody"
+				android:background="@drawable/container_1_body"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:layout_marginTop="15dp"
+					android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+					android:orientation="vertical">
+					<TextView android:id="@+id/emailAddress" android:text="@string/email_address"
+						android:visibility="gone" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_gravity="left"
+						android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<EditText android:id="@+id/emailAddressView"
+						android:visibility="gone" android:layout_width="match_parent"
+						android:layout_height="wrap_content" style="@style/editText"
+						android:layout_marginBottom="12dp" android:maxLines="1" />
+
+					<TextView android:id="@+id/password" android:text="@string/password"
+						android:visibility="gone" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_gravity="left"
+						android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<EditText android:id="@+id/passwordView"
+						android:visibility="gone" android:layout_width="match_parent"
+						android:layout_height="wrap_content" style="@style/editText"
+						android:layout_marginBottom="12dp" android:inputType="textPassword"
+						android:maxLines="1" />
+
+					<TextView android:id="@+id/confirmPassword" android:text="@string/cnf_password"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:visibility="gone" android:layout_gravity="left"
+						android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<EditText android:id="@+id/confirmPasswordView"
+						android:layout_width="match_parent" android:layout_height="wrap_content"
+						android:visibility="gone" style="@style/editText"
+						android:layout_marginBottom="12dp" android:maxLines="1"
+						android:inputType="textPassword" />
+
+
+				</LinearLayout>
+				<View android:id="@+id/separatorView" android:layout_width="match_parent"
+					android:layout_marginTop="4dp" android:layout_height="1dp"
+					android:background="@color/grey_4" android:layout_marginBottom="2dp">
+				</View>
+
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:layout_marginTop="15dp"
+					android:orientation="vertical">
+					<TextView android:id="@+id/name" android:text="@string/name"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:weightSum="2">
+						<EditText android:id="@+id/firstNameView"
+							android:layout_width="match_parent" android:layout_height="wrap_content"
+							style="@style/editText" android:layout_marginBottom="12dp"
+							android:hint="@string/first_name" android:layout_weight="1"
+							android:maxLines="1" android:layout_marginRight="7dp"
+							android:inputType="" />
+						<EditText android:id="@+id/lastNameView"
+							android:layout_width="match_parent" android:layout_height="wrap_content"
+							style="@style/editText" android:layout_marginBottom="12dp"
+							android:hint="@string/last_name" android:layout_weight="1"
+							android:layout_marginLeft="7dp" android:maxLines="1"
+							android:inputType="textPersonName" />
+					</LinearLayout>
+
+					<TextView android:id="@+id/ageGroup" android:text="@string/age_group"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<com.nflick.android.ui.EguideSelector
+						android:id="@+id/ageGroupSelector" android:layout_width="match_parent"
+						android:layout_marginBottom="10dp" style="@style/selector" />
+
+					<TextView android:id="@+id/phone" android:text="@string/phone"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:weightSum="1.2">
+						<EditText android:id="@+id/phoneCountryView"
+							android:layout_width="0dp" android:layout_height="wrap_content"
+							style="@style/editText" android:layout_marginBottom="12dp"
+							android:hint="@string/phone_country" android:layout_weight="0.3"
+							android:layout_marginRight="2dp" android:maxLines="1"
+							android:inputType="number" />
+						<EditText android:id="@+id/phoneAreaView"
+							android:layout_width="0dp" android:layout_height="wrap_content"
+							style="@style/editText" android:layout_marginBottom="12dp"
+							android:hint="@string/phone_area" android:layout_weight="0.3"
+							android:layout_marginRight="2dp" android:inputType="number"
+							android:maxLines="1" />
+						<EditText android:id="@+id/phoneNumberView"
+							android:layout_width="0dp" android:layout_height="wrap_content"
+							style="@style/editText" android:layout_marginBottom="12dp"
+							android:hint="@string/phone_number" android:layout_weight="0.6"
+							android:inputType="number" android:maxLines="1" />
+					</LinearLayout>
+
+					<!-- <TextView android:id="@+id/address" android:text="@string/address"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<EditText android:id="@+id/addressView" android:gravity="top"
+						android:layout_width="match_parent" android:layout_height="wrap_content"
+						android:lines="3" style="@style/editText"
+						android:layout_marginBottom="12dp" android:maxLines="3" /> -->
+
+					<Button android:id="@+id/updateProfileButton" android:text="@string/updateProfileText"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						style="@style/button" android:layout_gravity="center_vertical|right"
+						android:paddingRight="20dp" android:paddingLeft="20dp"
+						android:paddingTop="10dp" android:paddingBottom="10dp"
+						android:onClick="updateProfileClicked" />
+
+					<View android:layout_width="match_parent"
+						android:layout_height="48dp"></View>
+
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

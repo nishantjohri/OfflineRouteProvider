@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<ScrollView android:layout_alignParentTop="true"
+		android:id="@+id/bodyScrollView" android:layout_height="match_parent"
+		android:layout_width="match_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<include layout="@layout/banner" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+			<LinearLayout android:id="@+id/registrationheader"
+				android:background="@drawable/container_1_header"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:padding="10dp">
+				<TextView android:id="@+id/registrationTitle" android:text="@string/registration_title"
+					android:textColor="@color/theme_font_over_contrast"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+			</LinearLayout>
+
+			<LinearLayout android:id="@+id/registrationBody"
+				android:background="@drawable/container_1_body"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:layout_marginTop="15dp"
+					android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+					android:orientation="vertical">
+					<TextView android:id="@+id/profile" android:text="@string/profile"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" />
+					<com.nflick.android.ui.EguideSelector
+						android:id="@+id/profileSelector" android:layout_width="match_parent"
+						android:layout_marginBottom="10dp" style="@style/selector" />
+
+				</LinearLayout>
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:layout_marginTop="15dp"
+					android:orientation="vertical">
+					<TextView android:id="@+id/profile" android:text="@string/list_of_interest"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday"
+						android:layout_marginBottom="5dp" android:textStyle="bold" />
+					<LinearLayout android:layout_width="match_parent"
+						android:id="@+id/interestListLayout" android:layout_height="wrap_content"
+						android:orientation="vertical" android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp">
+					</LinearLayout>
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+						<Button android:id="@+id/page2_backButton" android:text="@string/back"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							style="@style/button" android:layout_gravity="center_vertical|left"
+							android:paddingRight="20dp" android:paddingLeft="20dp"
+							android:paddingTop="10dp" android:paddingBottom="10dp"
+							android:onClick="buttonClicked" />
+						<View android:layout_width="match_parent"
+							android:layout_height="wrap_content" android:layout_weight="1"></View>
+						<Button android:id="@+id/page2_nextButton" android:text="@string/next"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							style="@style/button" android:layout_gravity="right"
+							android:paddingRight="20dp" android:paddingLeft="20dp"
+							android:paddingTop="10dp" android:paddingBottom="10dp"
+							android:onClick="buttonClicked" />
+					</LinearLayout>
+					<View android:layout_width="match_parent"
+						android:layout_height="48dp"></View>
+				</LinearLayout>
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

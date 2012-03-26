@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_margin="0dp">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_margin="0dp">
+		<LinearLayout android:id="@+id/aboutHeader"
+			android:background="@drawable/dialog_header" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:padding="10dp"
+			android:layout_margin="0dp">
+			<TextView android:id="@+id/aboutTitle" android:text="@string/about_singbuddy"
+				android:textColor="@color/theme_font_over_contrast"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/aboutBody"
+			android:background="@drawable/container_1_body" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:padding="10dp" android:layout_margin="0dp">
+			<TextView android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:text="@string/about_header"
+				android:id="@+id/abuotEguideLabel"></TextView>
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@string/app_version"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@string/app_build"></TextView>
+			</LinearLayout>
+			<TextView android:layout_width="match_parent"
+				android:layout_height="wrap_content" style="@style/detailTextView"
+				android:text="nFlick@2012. All Rights Reserved " android:id="@+id/aboutEguideCopyright"></TextView>
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="vertical">
+				<TextView android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:text="@string/about_website_label"
+					android:id="@+id/aboutEguideSiteLabel"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@string/app_portal"
+					android:layout_marginLeft="10dp" android:autoLink="web"
+					android:id="@+id/aboutEguideSiteLink"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</RelativeLayout>

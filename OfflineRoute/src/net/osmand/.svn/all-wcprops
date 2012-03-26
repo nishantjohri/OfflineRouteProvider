@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/singbuddy/!svn/ver/1829/Trunk/nFlick_Android/src/net/osmand
+END
+OpenstreetmapLocalUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/OpenstreetmapLocalUtil.java
+END
+OsmLogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/OsmLogUtil.java
+END
+OsmAndFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/OsmAndFormatter.java
+END
+GPXUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/GPXUtilities.java
+END
+CallbackWithObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/CallbackWithObject.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/Version.java
+END
+FavouritePoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/FavouritePoint.java
+END
+OpenstreetmapRemoteUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/OpenstreetmapRemoteUtil.java
+END
+LatLonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/singbuddy/!svn/ver/1753/Trunk/nFlick_Android/src/net/osmand/LatLonUtils.java
+END
+OpenstreetmapPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/OpenstreetmapPoint.java
+END
+OpenstreetmapUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/OpenstreetmapUtil.java
+END

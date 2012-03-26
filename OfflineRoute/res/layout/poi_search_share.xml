@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/poiSearchHeader"
+		android:background="@drawable/container_1_body" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:padding="1dp"
+		android:layout_marginLeft="1dp" android:layout_marginRight="1dp"
+		android:weightSum="1">
+		<EditText android:id="@+id/shareSearchView" android:layout_width="0dp"
+			android:layout_height="wrap_content" android:hint="@string/search"
+			style="@style/editText" android:layout_weight="0.6"
+			android:layout_margin="5dp"></EditText>
+		<ImageButton android:id="@+id/filterSelector" style="@style/button"
+			android:scaleType="fitXY" android:src="@drawable/filter_data"
+			android:layout_width="0dp" android:layout_height="40dp"
+			android:layout_weight="0.2" android:layout_margin="5dp"
+			android:onClick="showFilter" />
+		<ImageButton android:id="@+id/resetButton" style="@style/button"
+			android:scaleType="fitXY" android:src="@drawable/reset"
+			android:layout_width="0dp" android:layout_height="40dp"
+			android:layout_weight="0.2" android:layout_margin="5dp"
+			android:onClick="reset" android:padding="5dp" />
+	</LinearLayout>
+	<ListView android:id="@+id/searchListView"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:footerDividersEnabled="true" android:layout_gravity="center"/>
+
+	<TextView android:id="@+id/noSearchRes" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:visibility="gone" android:text="@string/no_search_res" />
+
+</LinearLayout>

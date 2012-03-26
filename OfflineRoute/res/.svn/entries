@@ -1,0 +1,52 @@
+10
+
+dir
+1579
+https://projects.neevtech.com/svn/singbuddy/Trunk/nFlick_Android/res
+https://projects.neevtech.com/svn/singbuddy
+
+
+
+2012-02-01T10:22:10.248342Z
+1570
+rajiv
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+80ea35c6-24fb-4f6b-9779-a0467116e0da
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+menu
+dir
+
+raw
+dir
+
+values
+dir
+

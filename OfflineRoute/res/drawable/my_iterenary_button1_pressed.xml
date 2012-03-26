@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<gradient android:angle="90" android:endColor="@color/my_iterenary_theme1_contrast_gradient_start"
+		android:startColor="@color/my_iterenary_theme1_contrast_gradient_end"
+		android:type="linear" />
+
+	<stroke android:width="2dp" android:color="@color/my_iterenary_theme1_contrast_border_2" />
+
+	<padding android:left="5dp" android:top="5dp" android:right="5dp"
+		android:bottom="5dp" />
+
+	<corners android:bottomRightRadius="4dp"
+		android:bottomLeftRadius="4dp" android:topLeftRadius="4dp"
+		android:topRightRadius="4dp" />
+</shape>

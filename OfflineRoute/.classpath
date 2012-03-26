@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DataExtractionOSM"/>
+	<classpathentry kind="lib" path="lib/bsh-core-2.0b4.jar"/>
+	<classpathentry kind="lib" path="lib/EasyTracker.jar"/>
+	<classpathentry kind="lib" path="lib/junidecode-0.1.jar"/>
+	<classpathentry kind="lib" path="lib/libGoogleAnalytics.jar"/>
+	<classpathentry kind="lib" path="lib/tuprolog.jar"/>
+	<classpathentry kind="lib" path="libs/activation.jar"/>
+	<classpathentry kind="lib" path="libs/additionnal.jar"/>
+	<classpathentry kind="lib" path="libs/commons-compress-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-asl-1.7.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-mapper-asl-1.7.4.jar"/>
+	<classpathentry kind="lib" path="libs/mail.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-android-4.35.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-core-4.35.jar"/>
+	<classpathentry kind="lib" path="libs/zip4j_1.2.8.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

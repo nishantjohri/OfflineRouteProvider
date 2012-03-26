@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cutomizeCommentHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/container_1_header"
+        android:padding="10dp" >
+
+        <TextView
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review_dialog"
+            android:textColor="@color/theme_font_over_contrast"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/poi_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cutomizeCommentHeader"
+        android:gravity="center"
+        android:textColor="@color/theme_font_over_contrast"
+        android:textSize="15dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/commentListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poi_name"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:footerDividersEnabled="true" />
+
+    <TextView
+        android:id="@+id/noCommentTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poi_name"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/no_comment_res"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/addCommentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:onClick="addComment"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/comment_state" >
+    </ImageView>
+
+</RelativeLayout>

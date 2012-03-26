@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nFlick</string>
+    <string name="app_version">Version 0.4</string>
+    <string name="app_build">Build 1652</string>
+    <string name="app_portal">http://www.nflick.com/beta</string>
+
+    <!-- ****************Labels*************** -->
+
+
+    <!-- General -->
+    <string name="selector_hint">Select</string>
+
+    <!-- Home -->
+    <string name="home_note1">Go directly to Planning your Singapore Itinerary</string>
+    <string name="home_note2">Or you can login/register to sync your app with our server. You can then view your itinerary and other trip details on our website.</string>
+    <string name="home_plan_button">Plan Itinerary</string>
+    <string name="home_login_button">Login/Register</string>
+    <string name="home_title">Welcome to nFlick</string>
+    <!-- Login -->
+    <string name="title1">n</string>
+    <string name="title2">Flick</string>
+    <string name="slogan">Personalized City Guide</string>
+    <string name="login_title">Login to nFlick</string>
+    <string name="about_singbuddy">About</string>
+    <string name="about_header">nFlick</string>
+    <string name="about_website_label">nFlick Web Portal</string>
+    <string name="username_hint">Username</string>
+    <string name="pwd_hint">Password</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="login_button">Login</string>
+    <string name="register_title">Not a Member Yet?</string>
+    <string name="register_button">Register</string>
+    <string name="user_id_hint">Email Id</string>
+    <string name="share_comments">Share</string>
+
+    <!-- My Itinerary -->
+    <string name="plan_title">Plan your trip</string>
+    <string name="dest_label">Destination</string>
+    <string name="from_label">From date <b>*</b></string>
+    <string name="to_label">To date <b>*</b></string>
+    <string name="profile_label">Purpose of Visit <b>*</b></string>
+    <string name="pace_label">Pace <b>*</b></string>
+    <string name="place_stay_label">Place of stay (optional)</string>
+    <string name="go_button">Go</string>
+    <string name="select_profile_dialog">Select Purpose of Visit</string>
+    <string name="select_pace_dialog">Select Trip pace</string>
+    <string name="select_place_dialog">Select Place of stay</string>
+    <string name="select_food_pref_dialog">Select Food Category</string>
+    <string name="customize_profile_title">Select Interests</string>
+    <string name="msg_removed">Removed!</string>
+    <string name="msg_added">Added!</string>
+    <string name="msg_deleted">Deleted!</string>
+    <string name="other">Other!</string>
+    <string name="food_pref_label">Food Preferences (optional)</string>
+    <string name="picture">Trip Pictures</string>
+    <string name="trip_comment">Trip Comments</string>
+    <string name="imp_info">Important Information</string>
+    <string name="debug_mode">Debug</string>
+
+    <!-- Registration -->
+    <string name="registration_title">Register your Account</string>
+    <string name="email_address">Email Address <b>*</b></string>
+    <string name="password">Password <b>*</b></string>
+    <string name="cnf_password">Confirm Password <b>*</b></string>
+    <string name="name">Name (optional)</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age_group">Age Group (optional)</string>
+    <string name="phone">Phone (optional)</string>
+    <string name="phone_country">Cntry</string>
+    <string name="phone_area">Area</string>
+    <string name="phone_number">Number</string>
+    <string name="address">Address</string>
+    <string name="select_agegroup_title">Select your age group</string>
+    <string name="select_purpose_of_visit_title">Select your purpose of visit</string>
+    <string name="select_security_que_title">Select a Security Question</string>
+    <string name="next">Next ></string>
+    <string name="back">&lt;Prev</string>
+    <string name="profile">Purpose of visit</string>
+    <string name="list_of_interest">List of Interests</string>
+    <string name="food_preferences">Food Preferences</string>
+    <string name="security_question">Security Question <b>*</b></string>
+    <string name="answer">Answer <b>*</b></string>
+    <string name="accept_term_conditions">Accept our Terms &amp; Conditions <b>*</b></string>
+    <string name="submit">Done</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="profile_customize">Others</string>
+    <string name="food_customize">Others</string>
+    <string name="hotel_customize">Specify your own</string>
+    <string name="hotel_customize_hint">Hotel name</string>
+    <string name="updateProfileText">Update</string>
+    <string name="title_update_profile">Update your profile</string>
+    <string name="update_itinerary">Update Itinerary</string>
+    <string name="title_trip_comment">Trip Comments</string>
+
+    <!-- POI-Search -->
+    <string name="search">Search</string>
+    <string name="display_all">Display All</string>
+    <string name="select_interest_title">Select interest(s)</string>
+    <string name="add_poi_title">Add a place</string>
+    <string name="add_poi_button">Add</string>
+    <string name="select_date">Select date</string>
+    <string name="select_time_of_day">Select session</string>
+    <string name="session_morning">Morning</string>
+    <string name="session_afternoon">Afternoon</string>
+    <string name="session_evening">Evening</string>
+    <string name="select_date_label">Select date</string>
+    <string name="select_session_label">Select session</string>
+
+    <!-- POIDetails -->
+    <string name="poi_rating_button">Rate it!</string>
+    <string name="poi_review_button">Reviews</string>
+    <string name="poi_trans_modes_button">Transport Info</string>
+    <string name="poi_description">Description</string>
+    <string name="poi_timing">Timing</string>
+    <string name="poi_show_prices">Rates</string>
+    <string name="poi_interest">Category</string>
+    <string name="poi_address">Address</string>
+    <string name="poi_phone">Phone</string>
+    <string name="poi_website">Website</string>
+    <string name="poi_promotions">Promotions</string>
+    <string name="poi_distance_from">Distance from current place</string>
+    <string name="your_comments">Your comments</string>
+    <string name="empty_comments">Please enter comment.</string>
+
+    <!-- RECOMMENDATIONS -->
+    <string name="recommendations_title">nFlick Recommends...</string>
+    <string name="no_recommendations">No recommendation found</string>
+    <string name="poi_in_itinerary">*Already in your itinerary</string>
+
+    <!-- CITY MAP -->
+    <string name="mode_free_roam">Free roam mode</string>
+    <string name="mode_follow_user">Follow me mode</string>
+
+    <!-- UI MESSAGES -->
+
+    <string name="not_valid_user">Not a valid user!</string>
+    <string name="enter_user_id">Please enter user Id</string>
+    <string name="reset_password_mail_sent">New password sent to your mail id!</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="error_while_sending_mail">Error While Sending mail</string>
+    <string name="ans_not_match">Answer not matched!</string>
+    <string name="title_quit">Exit nFLick?</string>
+    <string name="title_reset_itinerary">Confirmation Required</string>
+    <string name="title_add_poi">Confirmation Required</string>
+    <string name="title_registration_success">Hurray!</string>
+    <string name="title_registration_failure">Sorry!</string>
+    <string name="title_validate">Incorrect data</string>
+    <string name="title_invalid_creds_title">Login failed</string>
+    <string name="title_logging_in">Logging in</string>
+    <string name="title_login_not_connected">Login failed</string>
+    <string name="title_sync_not_connected">Sync Failed</string>
+    <string name="title_share_not_connected">Cannot Share</string>
+    <string name="title_registration_not_connected">Registration failed</string>
+    <string name="title_registration_cancel">Cancel Registration</string>
+    <string name="title_unexpected_error">Oops!</string>
+    <string name="title_general_loading">Loading</string>
+    <string name="title_general_syncing">Initializing</string>
+    <string name="title_registering">Registering</string>
+    <string name="title_checking_email">Checking availability of email and validating input</string>
+    <string name="title_create_itinerary">Creating Itinerary</string>
+    <string name="title_save_rating_failed">Saving Failed</string>
+    <string name="title_poi_exists">Confirmation Required</string>
+    <string name="title_remove_poi">Confirmation Required</string>
+    <string name="title_recommendations_failed">Recommendation Failed</string>
+    <string name="title_sync_confirmation">Confirmation Required</string>
+    <string name="title_update_itinerary">Updating Itinerary</string>
+    <string name="msg_sync_confirmation">Syncing will use your internet connection. Data
+		charges may apply. Proceed with Sync?
+	</string>
+    <string name="msg_validating_iput">Validating input..Please wait
+	</string>
+    <string name="msg_recommendations_failed">Sorry, an unexpected error occurred. Please try
+		again.
+	</string>
+    <string name="msg_reset_itinerary"> Are you sure you want to reset your itinerary?
+	</string>
+    <string name="comment_empty"> Please write comments
+	</string>
+    <string name="title_remove_picture">Confirmation Required</string>
+    <string name="msg_picture_delete"> Are you sure you want to delete this picture?
+	</string>
+    <string name="msg_remove_poi">Are you sure you want to remove this place from
+		your itinerary?
+	</string>
+    <string name="title_itinerary_not_created">Create Itinerary</string>
+    <string name="msg_itinerary_not_created">You have not created an itinerary. Would you like
+		to create one now?
+	</string>
+    <string name="msg_poi_exists">You already have this place in your itinerary.
+		Would you like to add it anyway?
+	</string>
+    <string name="msg_sync_not_connected">You need to be connected to the internet to
+		download Singapore data
+	</string>
+    <string name="msg_save_rating_failed">Failed to save the rating for this place. Please
+		try
+		again later.
+	</string>
+    <string name="msg_save_comment_failed">Failed to save your comments for this place. Please
+		try
+		again later.
+	</string>
+    <string name="msg_create_itinerary">Please wait...</string>
+    <string name="msg_registration_success">You have successfully registered with nFlick! 
+	</string>
+    <string name="msg_registration_failure">Registration failed. Please try again later.
+	</string>
+    <string name="msg_registration_cancel">You will lose all the data you may have entered! Are
+		you sure?
+	</string>
+    <string name="msg_quit">Are you sure you want to exit nFLick?</string>
+    <string name="msg_registering">Please wait...</string>
+    <string name="msg_general_syncing">Initializing app. Please wait...
+	</string>
+    <string name="msg_itinerary_syncing">Please wait while we update your data.</string>
+    <string name="msg_general_loading">Please wait...</string>
+    <string name="msg_registration_loading">Registering.Please wait...</string>
+    <string name="msg_unexpected_error">Sorry, an unexpected error occurred. Please try
+		again.
+	</string>
+    <string name="msg_username_reqd">Please enter your registered Email Id</string>
+    <string name="msg_password_reqd">Please enter your Password</string>
+    <string name="msg_invalid_creds">Invalid Username/Password combination</string>
+    <string name="msg_logging_in">Please wait...</string>
+    <string name="updated_profile">Profile Updated</string>
+    <string name="msg_login_not_connected">You need to be connected to the Internet to login
+	</string>
+    <string name="msg_internet_not_connected">You need to be connected to the Internet to share
+	</string>
+    <string name="msg_registration_not_connected">You need to be connected to the Internet to
+		register
+	</string>
+    <!-- Registration Page - 1 -->
+    <string name="msg_validate_email">Pleases enter a valid email</string>
+    <string name="msg_validate_email_duplicate">The email id you have entered is already taken
+	</string>
+    <string name="msg_validate_password">Please enter your password</string>
+    <string name="msg_validate_confirm_password_length">Please enter the matching password in the confirm
+		password field
+	</string>
+    <string name="msg_validate_password_length">Your password should be atleast 6 characters long
+	</string>
+    <string name="msg_validate_confirm_password">The passwords do not match</string>
+    <string name="msg_validate_first_name">Please enter your first name</string>
+    <string name="msg_validate_last_name">Please enter your last name</string>
+    <string name="msg_validate_phone_country">Please enter the your phone numbers country code
+	</string>
+    <string name="msg_validate_age_group">Please Select age group</string>
+    <string name="msg_validate_phone_area">Please enter your phone numbers area code</string>
+    <string name="msg_validate_phone_number">Please enter your phone number</string>
+    <string name="msg_validate_address">Please enter your address</string>
+    <!-- Registration Page - 2,3,4 -->
+    <string name="msg_validate_purpose_of_visit">Please select your Purpose of visit</string>
+    <string name="msg_validate_interest_subcategory">Select atleast one Interest</string>
+    <string name="msg_validate_food_category">Select atleast one Food Preference</string>
+    <string name="msg_validate_security_question">Please select a security question</string>
+    <string name="msg_validate_security_answer">Please enter your security answer</string>
+    <string name="msg_validate_accept_terms">Please accept our terms and conditions to register
+	</string>
+    <!-- Plan Itinerary -->
+    <string name="msg_validate_fromdate">Please select your itinerary"s From date
+	</string>
+    <string name="msg_validate_fromdate_invalid">From date cannot be before today"s date
+	</string>
+    <string name="msg_validate_todate_invalid">To date cannot be before From date
+	</string>
+    <string name="msg_validate_todate">Please select your itinerary"s To date
+	</string>
+    <string name="msg_validate_pace">Please select your itinerary"s pace</string>
+    <string name="msg_validate_food_pref">Please select your Food Preference</string>
+    <string name="msg_validate_placeofstay">Please select your place of stay</string>
+    <string name="share_message_dialog">Select place to share
+	</string>
+    <string name="imp_info_str">Important Information</string>
+    <string name="imp_info_city_lbl">City:</string>
+    <string name="imp_info_city_value">Singapore</string>
+    <string name="imp_info_weather_lbl">Weather:</string>
+    <string name="imp_info_weather_value">Tropical</string>
+    <string name="imp_info_time_zone_lbl">Time Zone:</string>
+    <string name="imp_info_time_zone_value">+8 GMT</string>
+    <string name="imp_info_currency_lbl">Currency:</string>
+    <string name="imp_info_currency_value">Singapore Dollars</string>
+    <string name="imp_info_currency_exchange_lbl">Currency Exchange:</string>
+    <string name="imp_info_currency_exchange_value">1 USD = Approx. SGD 1.30</string>
+    <string name="imp_info_police_phone_lbl">Police Phone:</string>
+    <string name="imp_info_police_phone_value">999</string>
+    <string name="imp_info_fire_phone_lbl">Fire Phone:</string>
+    <string name="imp_info_fire_phone_value">995</string>
+    <string name="imp_info_ambulance_phone_lbl">Ambulance Phone:</string>
+    <string name="imp_info_ambulance_phone_value">995</string>
+    <string name="imp_info_taxi_phone_lbl">Call a Cab</string>
+    <string name="imp_info_taxi_phone_value"></string>
+    <string name="imp_info_city_cab_lbl">City Cab:</string>
+    <string name="imp_info_city_cab_value">6552 1111</string>
+    <string name="imp_info_comfort_taxi_lbl">Comfort Taxi:</string>
+    <string name="imp_info_comfort_taxi_value">6552 1111</string>
+    <string name="imp_info_smart_taxi_lbl">SMRT Taxis:</string>
+    <string name="imp_info_smart_taxi_value">6555 8888</string>
+    <string name="imp_info_premier_taxi_lbl">Premier Taxis:</string>
+    <string name="imp_info_premier_taxi_value">6363 6888</string>
+    <string name="imp_info_prime_taxi_lbl">Prime Taxi:</string>
+    <string name="imp_info_prime_taxi_value">6778 0808</string>
+    <string name="imp_info_yellow_top_taxi_lbl">Yellow-Top Taxi:</string>
+    <string name="imp_info_yellow_top_taxi_value">6293 5545</string>
+    <string name="imp_info_smart_taxis_lbl">Smart Taxis:</string>
+    <string name="imp_info_smart_taxis_value">6485 7777</string>
+    <string name="imp_info_trans_cab_lbl">Trans-Cab:</string>
+    <string name="imp_info_trans_cab_value">6555 3333</string>
+    <string name="debug_dialog">Set Debug Mode</string>
+    <string name="debug_save">Save</string>
+    <string name="debug_message">If you enable debug, information will be sent to the server to help improve the application, but it will use internet.</string>
+    <string name="review_dialog">Reviews</string>
+
+    <!-- Menu Options -->
+    <string name="about_menu">About</string>
+    <string name="share">Share</string>
+    <string name="login">Login/Register</string>
+    <string name="reset_itinerary">Reset Itinerary</string>
+    <string name="my_iterenary_menu">My Itinerary</string>
+    <string name="poi_search_menu">Places</string>
+    <string name="viewmap_menu">View Map</string>
+    <string name="sync_menu">Sync</string>
+    <string name="recommendations_menu">Recommendations</string>
+    <string name="logout_menu">Logout</string>
+    <string name="my_location">My Location</string>
+    <string name="toggle_mode">Toggle Mode</string>
+    <string name="itinerary_places">My Itinerary Places</string>
+    <string name="show_map_item">Subway Map</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="no_search_res">No results found.</string>
+    <string name="no_comment_res">No comments found.</string>
+    <string name="commented_at">Commented on </string>
+
+</resources>

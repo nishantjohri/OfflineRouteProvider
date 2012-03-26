@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/bodyScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                layout="@layout/banner" />
+
+            <LinearLayout
+                android:id="@+id/planTripHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container_1_header"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/planTripTitle"
+                    style="@android:style/TextAppearance.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plan_title"
+                    android:textColor="@color/theme_font_over_contrast"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/planTripBody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container_1_body"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/fromLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/from_label"
+                    android:textStyle="bold" />
+
+                <com.nflick.android.ui.EguideDateTimePicker
+                    android:id="@+id/fromDatePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:id="@+id/toLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_label"
+                    android:textStyle="bold" />
+
+                <com.nflick.android.ui.EguideDateTimePicker
+                    android:id="@+id/toDatePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:id="@+id/profileLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_label"
+                    android:textStyle="bold" />
+
+                <com.nflick.android.ui.EguideSelector
+                    android:id="@+id/profileSelector"
+                    style="@style/selector"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:id="@+id/foodPrefLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_pref_label"
+                    android:textStyle="bold" />
+
+                <com.nflick.android.ui.EguideSelector
+                    android:id="@+id/foodPrefSelector"
+                    style="@style/selector"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:id="@+id/paceLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pace_label"
+                    android:textStyle="bold" />
+
+                <com.nflick.android.ui.EguideSelector
+                    android:id="@+id/paceSelector"
+                    style="@style/selector"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:id="@+id/placeStayLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/place_stay_label"
+                    android:textStyle="bold" />
+
+                <com.nflick.android.ui.EguidePlaceOfStaySelector
+                    android:id="@+id/placeStaySelector"
+                    style="@style/selector"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp" />
+
+                <Button
+                    android:id="@+id/goButton"
+                    style="@style/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="createItinerary"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/go_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

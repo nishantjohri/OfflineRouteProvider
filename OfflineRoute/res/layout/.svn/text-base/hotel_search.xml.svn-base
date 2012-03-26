@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/poiSearchHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/container_1_body"
+        android:padding="1dp"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/searchView"
+            style="@style/editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.8"
+            android:hint="@string/search" >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/resetButton"
+            style="@style/button"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.2"
+            android:onClick="reset"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/reset" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/placeOfStay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:footerDividersEnabled="true" />
+
+    <TextView
+        android:id="@+id/noSearchRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_search_res"
+        android:visibility="gone" />
+
+</LinearLayout>

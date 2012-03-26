@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/parentLayout" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_city_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_city_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_weather_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_weather_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_time_zone_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_time_zone_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_currency_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_currency_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_currency_exchange_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_currency_exchange_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_police_phone_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_police_phone_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_fire_phone_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_fire_phone_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_ambulance_phone_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_ambulance_phone_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_taxi_phone_lbl" android:textColor="@color/theme_font_over_primary_2"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_taxi_phone_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_city_cab_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_city_cab_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_comfort_taxi_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_comfort_taxi_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_smart_taxi_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_smart_taxi_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_premier_taxi_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_premier_taxi_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_prime_taxi_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_prime_taxi_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_yellow_top_taxi_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_yellow_top_taxi_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_smart_taxis_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_smart_taxis_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:paddingLeft="15dp"
+			android:paddingBottom="10dp">
+			<TextView android:text="@string/imp_info_trans_cab_lbl"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:text="@string/imp_info_trans_cab_value"
+				android:paddingLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</RelativeLayout>

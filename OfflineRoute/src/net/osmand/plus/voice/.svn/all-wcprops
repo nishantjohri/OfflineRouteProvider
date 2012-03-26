@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/singbuddy/!svn/ver/1753/Trunk/nFlick_Android/src/net/osmand/plus/voice
+END
+CommandBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/voice/CommandBuilder.java
+END
+CommandPlayerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/voice/CommandPlayerFactory.java
+END
+CommandPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/singbuddy/!svn/ver/1753/Trunk/nFlick_Android/src/net/osmand/plus/voice/CommandPlayer.java
+END
+TTSCommandPlayerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/voice/TTSCommandPlayerImpl.java
+END
+MediaCommandPlayerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/voice/MediaCommandPlayerImpl.java
+END
+AbstractPrologCommandPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/voice/AbstractPrologCommandPlayer.java
+END
+CommandPlayerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/voice/CommandPlayerException.java
+END

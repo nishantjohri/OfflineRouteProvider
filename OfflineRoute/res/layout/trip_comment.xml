@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_margin="0dp">
+	<ScrollView android:layout_alignParentTop="true"
+		android:id="@+id/bodyScrollView" android:layout_height="match_parent"
+		android:layout_width="match_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<include layout="@layout/banner" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+			<LinearLayout android:id="@+id/registrationheader"
+				android:background="@drawable/container_1_header"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:padding="10dp">
+				<TextView android:id="@+id/registrationTitle" android:text="@string/title_trip_comment"
+					android:textColor="@color/theme_font_over_contrast"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/registrationBody"
+				android:background="@drawable/container_1_body"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<EditText android:layout_width="fill_parent" android:id="@+id/tripComment"
+					android:layout_height="wrap_content" android:gravity="top"
+					android:singleLine="false" android:lines="5"  android:layout_marginTop="10dp"
+					android:layout_marginLeft="10dip" android:layout_marginRight="10dip" />
+
+				<Button android:id="@+id/shareComment" android:text="@string/share_comments"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@style/button" android:layout_gravity="center_horizontal"
+					android:paddingRight="20dp" android:paddingLeft="20dp" android:layout_marginBottom="10dp"
+					android:layout_marginTop="10dp" android:paddingTop="10dp"
+					android:paddingBottom="10dp" android:onClick="shareClicked" />
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

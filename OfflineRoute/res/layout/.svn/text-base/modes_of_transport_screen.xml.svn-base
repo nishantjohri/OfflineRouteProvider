@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<ScrollView android:layout_alignParentTop="true"
+		android:id="@+id/bodyScrollView" android:layout_height="match_parent"
+		android:layout_width="match_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<include layout="@layout/banner" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+			<LinearLayout android:id="@+id/modesOfTransportheader"
+				android:background="@drawable/screen_bar" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:padding="10dp">
+				<TextView android:id="@+id/modesOfTransportTitle" android:text="Modes of Transport"
+					android:textColor="@color/theme_font_over_contrast"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+			</LinearLayout>
+
+			<LinearLayout android:id="@+id/trasportBody"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:orientation="vertical" android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" style="@style/detailTextViewTitle"
+					 android:layout_marginTop="15dp"
+					android:layout_marginBottom="15dp"
+					android:id="@+id/modesOfTransportPlace"></TextView>
+
+<!-- Header -->
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:weightSum="4"
+					android:paddingTop="10dp" android:layout_weight="1"
+					android:background="@drawable/modes_of_transport_table_header">
+					<LinearLayout android:layout_width="0dp"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:gravity="center" android:layout_gravity="center"
+						android:visibility="invisible">
+						<ImageView android:background="@drawable/modes_of_transport_bus"
+							android:layout_gravity="center" android:layout_height="wrap_content"
+							android:layout_width="wrap_content"></ImageView>
+					</LinearLayout>
+					<View android:layout_width="1dp" android:layout_height="match_parent"
+						android:background="#363636" android:visibility="invisible"></View>
+					<TextView android:layout_width="0dp"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:text="Distance(K)" android:gravity="center"></TextView>
+					<View android:layout_width="1dp" android:layout_height="match_parent"
+						android:background="#363636" android:visibility="invisible"></View>
+					<TextView android:layout_width="0dp"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:text="Time(M)" android:gravity="center"></TextView>
+					<View android:layout_width="1dp" android:layout_height="match_parent"
+						android:background="#363636" android:visibility="invisible"></View>
+					<TextView android:layout_width="0dp"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:text="Cost($)" android:gravity="center"></TextView>
+				</LinearLayout>
+				
+<!-- Walk -->
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:weightSum="4"					
+					android:orientation="vertical" android:background="@drawable/modes_of_transport_table_background">
+
+					<View android:layout_width="match_parent"
+						android:layout_height="1dp" android:background="#363636"></View>
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:weightSum="4"
+						android:layout_weight="1">
+						<LinearLayout android:layout_width="0dp"
+							android:layout_height="wrap_content" android:layout_weight="1"
+							android:layout_margin="15dp" android:gravity="center"
+							android:layout_gravity="center">
+							<ImageView android:background="@drawable/modes_of_transport_walk"
+								android:layout_gravity="center" android:layout_height="wrap_content"
+								android:layout_width="wrap_content"></ImageView>
+						</LinearLayout>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportWalkViewDistance"
+							android:layout_height="wrap_content" android:layout_weight="1"
+							android:text="NA" android:layout_margin="15dp"
+							android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportWalkViewTime" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportWalkViewCost" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+					</LinearLayout>
+					<View android:layout_width="match_parent"
+						android:layout_height="1dp" android:background="#363636"></View>
+<!-- Subway -->
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:weightSum="4"
+						android:layout_weight="1">
+						<LinearLayout android:layout_width="0dp"
+							android:layout_height="wrap_content" android:layout_weight="1"
+							android:layout_margin="15dp" android:gravity="center"
+							android:layout_gravity="center">
+							<ImageView android:background="@drawable/modes_of_transport_subway"
+								android:layout_gravity="center" android:layout_height="wrap_content"
+								android:layout_width="wrap_content"></ImageView>
+						</LinearLayout>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportSubwayViewDistance"
+							android:layout_height="wrap_content" android:layout_weight="1"
+							android:text="NA" android:layout_margin="15dp"
+							android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportSubwayViewTime" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportSubwayViewCost" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+					</LinearLayout>
+					<View android:layout_width="match_parent"
+						android:layout_height="1dp" android:background="#363636"></View>
+<!-- Bus -->
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:weightSum="4"
+						android:layout_weight="1">
+						<LinearLayout android:layout_width="0dp"
+							android:layout_height="wrap_content" android:layout_weight="1"
+							android:layout_margin="15dp" android:gravity="center"
+							android:layout_gravity="center">
+							<ImageView android:background="@drawable/modes_of_transport_bus"
+								android:layout_gravity="center" android:layout_height="wrap_content"
+								android:layout_width="wrap_content"></ImageView>
+						</LinearLayout>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportBusViewDistance" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportBusViewTime" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportBusViewCost" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+					</LinearLayout>
+					<View android:layout_width="match_parent"
+						android:layout_height="1dp" android:background="#363636"></View>
+<!-- taxi -->	
+				<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:weightSum="4"
+						android:layout_weight="1">
+						<LinearLayout android:layout_width="0dp"
+							android:layout_height="wrap_content" android:layout_weight="1"
+							android:layout_margin="15dp" android:gravity="center"
+							android:layout_gravity="center">
+							<ImageView android:background="@drawable/modes_of_transport_car"
+								android:layout_gravity="center" android:layout_height="wrap_content"
+								android:layout_width="wrap_content"></ImageView>
+						</LinearLayout>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportCarViewDistance" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportCarViewTime" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+						<View android:layout_width="1dp" android:layout_height="match_parent"
+							android:background="#363636"></View>
+						<TextView android:layout_width="0dp"
+							android:id="@+id/transportCarViewCost" android:layout_height="wrap_content"
+							android:layout_weight="1" android:text="NA"
+							android:layout_margin="15dp" android:gravity="center"
+							android:maxLines="1"></TextView>
+					</LinearLayout>
+				</LinearLayout>
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
+

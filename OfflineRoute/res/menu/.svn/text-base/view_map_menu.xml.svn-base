@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/myLocation" android:title="@string/my_location"
+		android:icon="@android:drawable/ic_menu_mylocation"></item>
+	<item android:id="@+id/toggleMapMode" android:title="@string/toggle_mode"
+		android:icon="@android:drawable/ic_menu_manage"></item>
+	<item android:id="@+id/itineraryPlaces" android:title="@string/itinerary_places"
+		android:icon="@android:drawable/ic_menu_myplaces"></item>
+	<item android:id="@+id/recommendedPoisOnMap" android:title="@string/recommendations_menu"
+		android:icon="@android:drawable/ic_menu_set_as"></item>
+	<item android:id="@+id/showMapItem" android:title="@string/show_map_item"
+		android:icon="@android:drawable/ic_menu_info_details"></item>
+	<item android:id="@+id/share" android:title="@string/share"
+		android:icon="@android:drawable/ic_menu_share"></item>
+</menu>

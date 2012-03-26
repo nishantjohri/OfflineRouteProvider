@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_margin="0dp">
+	<ScrollView android:layout_alignParentTop="true"
+		android:id="@+id/bodyScrollView" android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_margin="0dp">
+			<LinearLayout android:id="@+id/header"
+				android:background="@drawable/dialog_header" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:padding="10dp"
+				android:layout_margin="0dp">
+				<TextView android:id="@+id/addPoiTitle" android:text="@string/add_poi_title"
+					android:textColor="@color/theme_font_over_contrast"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/body" android:background="@drawable/container_1_body"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:orientation="vertical" android:padding="10dp"
+				android:layout_margin="0dp">
+				<TextView android:text="@string/select_date_label"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday" />
+				<com.nflick.android.ui.EguideSelector
+					android:id="@+id/dateSelector" android:layout_width="match_parent"
+					android:layout_marginBottom="10dp" style="@style/selector" />
+				<TextView android:id="@+id/emailAddress" android:text="@string/select_session_label"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="left" android:textColor="@color/theme_font_over_seconday" />
+				<com.nflick.android.ui.EguideSelector
+					android:id="@+id/mornOrNoonSelector" android:layout_width="match_parent"
+					android:layout_marginBottom="10dp" style="@style/selector" />
+				<Button android:id="@+id/addPoiButton" android:text="@string/add_poi_button"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@style/button" android:layout_gravity="center_horizontal"
+					android:paddingRight="20dp" android:paddingLeft="20dp"
+					android:paddingTop="10dp" android:paddingBottom="10dp"
+					android:onClick="onLoginClicked" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

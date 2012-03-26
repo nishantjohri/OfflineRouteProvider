@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_margin="0dp">
+	<ScrollView android:layout_alignParentTop="true"
+		android:id="@+id/bodyScrollView" android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_margin="0dp">
+			<LinearLayout android:id="@+id/header"
+				android:background="@drawable/dialog_header"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:padding="10dp" android:layout_margin="0dp">
+				<TextView android:id="@+id/dialogTitle" 
+					android:textColor="@color/theme_font_over_contrast"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					style="@android:style/TextAppearance.Large" android:textStyle="bold" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/body" android:background="@drawable/container_1_body"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:orientation="vertical" android:padding="10dp"
+				android:layout_margin="0dp">
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

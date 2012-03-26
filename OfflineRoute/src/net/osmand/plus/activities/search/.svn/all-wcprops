@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/singbuddy/!svn/ver/1753/Trunk/nFlick_Android/src/net/osmand/plus/activities/search
+END
+SearchTransportActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchTransportActivity.java
+END
+SearchAddressOnlineActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchAddressOnlineActivity.java
+END
+SearchBuildingByNameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchBuildingByNameActivity.java
+END
+SearchRegionByNameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchRegionByNameActivity.java
+END
+SearchPoiFilterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchPoiFilterActivity.java
+END
+SearchCityByNameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchCityByNameActivity.java
+END
+GeoIntentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/GeoIntentActivity.java
+END
+SearchStreetByNameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchStreetByNameActivity.java
+END
+SearchAddressActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchAddressActivity.java
+END
+SearchByNameAbstractActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchByNameAbstractActivity.java
+END
+SearchHistoryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchHistoryActivity.java
+END
+SearchHistoryHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchHistoryHelper.java
+END
+SearchStreet2ByNameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchStreet2ByNameActivity.java
+END
+SearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchActivity.java
+END
+SearchPOIActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/activities/search/SearchPOIActivity.java
+END

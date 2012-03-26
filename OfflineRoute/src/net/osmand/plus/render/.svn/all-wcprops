@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/singbuddy/!svn/ver/1753/Trunk/nFlick_Android/src/net/osmand/plus/render
+END
+RendererRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/render/RendererRegistry.java
+END
+TextRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/render/TextRenderer.java
+END
+RenderingIcons.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/render/RenderingIcons.java
+END
+MapRenderRepositories.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/render/MapRenderRepositories.java
+END
+PerformanceFlags.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/render/PerformanceFlags.java
+END
+NativeOsmandLibrary.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/render/NativeOsmandLibrary.java
+END
+QuadTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/singbuddy/!svn/ver/1753/Trunk/nFlick_Android/src/net/osmand/plus/render/QuadTree.java
+END
+UnscaledBitmapLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/singbuddy/!svn/ver/1942/Trunk/nFlick_Android/src/net/osmand/plus/render/UnscaledBitmapLoader.java
+END
+MapVectorLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/2082/Trunk/nFlick_Android/src/net/osmand/plus/render/MapVectorLayer.java
+END
+OsmandRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/singbuddy/!svn/ver/2015/Trunk/nFlick_Android/src/net/osmand/plus/render/OsmandRenderer.java
+END
